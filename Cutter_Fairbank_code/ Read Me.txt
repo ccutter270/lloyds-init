@@ -1,0 +1,48 @@
+CS311: Final Project 
+Caroline Cutter + Julia Fairbank
+
+HONOR CODE:
+We have neither given nor received unauthorized aid on this assignment.
+All group members were present and contributing during all work on this project.
+
+
+Files Required: data_scrape.py, lloyds.py, wine_data.csv, wine_data.txt 
+
+
+CODE FILES: 
+
+- data_scrape.py --->   This method turns the data from the CSV into a txt file.
+    			The file needed is wine_data.csv and the information is
+    			written to "wine_data.txt"
+
+- lloyds.py -------->   This python code contains implementations of Lloyd's method with
+    			5 different initalization methods (MacQueen, Forgy, K-Means++,
+    			Naive Sharding and Cutter-Fairbank Method). When this code is run,
+    			it will run for 100 iterations for each initialization method
+    			and information about accuracy, iterations and time will be written
+    			to a CSV file called "lloyds_data.csv". The files needed are
+    			wine_data.txt and wine_data.csv. The second half of this code
+    			contains the graphing code for the wine clustering. 
+
+- wine_data.csv ----> wine data in the form of a CSV file 
+
+- wine_data.txt ---->  wine data in the form of a txt file 
+
+
+
+DATA ANALYSIS FILES: 
+
+- lloyds_data.csv ----> contains the data that comes from running lloyds.py
+
+- lloyd_analysis.R ---> contains R code that analyzes the data from lloyds algorithm. 
+			Must have the "lloyds_data.csv" to run. 
+
+
+- Graph Folder -------> contains all the graphs created from the lloyd_analysis.R code 
+			and Lloyds.py code
+
+
+
+
+
+
